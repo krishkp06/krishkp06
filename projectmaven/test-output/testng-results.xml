@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="278136" started-at="2022-02-01T10:12:56 IST" finished-at="2022-02-01T10:17:34 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="278136" started-at="2022-02-01T10:12:56 IST" finished-at="2022-02-01T10:17:34 IST">
+      <class name="com.testng.amazondata">
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="18033" started-at="2022-02-01T10:12:56 IST" data-provider="searchvalues" finished-at="2022-02-01T10:13:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="17909" started-at="2022-02-01T10:12:56 IST" data-provider="searchvalues" finished-at="2022-02-01T10:13:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="16730" started-at="2022-02-01T10:13:14 IST" data-provider="searchvalues" finished-at="2022-02-01T10:13:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="16606" started-at="2022-02-01T10:13:14 IST" data-provider="searchvalues" finished-at="2022-02-01T10:13:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="16744" started-at="2022-02-01T10:13:31 IST" data-provider="searchvalues" finished-at="2022-02-01T10:13:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmi note 10 pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="16838" started-at="2022-02-01T10:13:31 IST" data-provider="searchvalues" finished-at="2022-02-01T10:13:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmi note 10 pro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="16369" started-at="2022-02-01T10:13:48 IST" data-provider="searchvalues" finished-at="2022-02-01T10:14:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone 13 pro max]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="16929" started-at="2022-02-01T10:13:48 IST" data-provider="searchvalues" finished-at="2022-02-01T10:14:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone 13 pro max]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="15602" started-at="2022-02-01T10:14:04 IST" data-provider="searchvalues" finished-at="2022-02-01T10:14:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rogphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="15569" started-at="2022-02-01T10:14:05 IST" data-provider="searchvalues" finished-at="2022-02-01T10:14:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rogphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="18932" started-at="2022-02-01T10:14:20 IST" data-provider="searchvalues" finished-at="2022-02-01T10:14:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wirelesskeyboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="18289" started-at="2022-02-01T10:14:20 IST" data-provider="searchvalues" finished-at="2022-02-01T10:14:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wirelesskeyboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="17577" started-at="2022-02-01T10:14:39 IST" data-provider="searchvalues" finished-at="2022-02-01T10:14:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ps4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="16819" started-at="2022-02-01T10:14:39 IST" data-provider="searchvalues" finished-at="2022-02-01T10:14:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ps4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="38406" started-at="2022-02-01T10:14:55 IST" data-provider="searchvalues" finished-at="2022-02-01T10:15:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung s21 ultra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="38098" started-at="2022-02-01T10:14:56 IST" data-provider="searchvalues" finished-at="2022-02-01T10:15:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung s21 ultra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="33995" started-at="2022-02-01T10:15:34 IST" data-provider="searchvalues" finished-at="2022-02-01T10:16:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gaming latop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="33777" started-at="2022-02-01T10:15:34 IST" data-provider="searchvalues" finished-at="2022-02-01T10:16:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gaming latop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search" duration-ms="86206" started-at="2022-02-01T10:16:08 IST" data-provider="searchvalues" finished-at="2022-02-01T10:17:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[logitechwireleskeyboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search1(java.lang.String)[pri:0, instance:com.testng.amazondata@43a0cee9]" name="search1" duration-ms="86335" started-at="2022-02-01T10:16:08 IST" data-provider="searchvalues" finished-at="2022-02-01T10:17:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[logitechwireleskeyboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search1 -->
+      </class> <!-- com.testng.amazondata -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
