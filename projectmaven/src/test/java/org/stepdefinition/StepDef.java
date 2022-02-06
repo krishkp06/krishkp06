@@ -3,6 +3,7 @@ package org.stepdefinition;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.pom.BookHotel;
 import com.pom.Login;
 import com.pom.SearchHotel;
 import com.pom.SelectHotel;
@@ -18,6 +19,7 @@ public class StepDef extends BaseClass {
 	Login login;
 	SearchHotel search;
 	SelectHotel select;
+	BookHotel hotel;
 
 	@Given("^user is on adactin home page$")
 	public void user_is_on_adactin_home_page() throws Exception {
@@ -78,24 +80,31 @@ public class StepDef extends BaseClass {
 
 	 @When("^user makes payment$")
 	 public void user_makes_payment() throws Exception {
-		 
-		 sendkeys(element, data);
+		 hotel = new BookHotel();
+		sendkeys(hotel.getFirstname(), "krishna");
+		sendkeys(hotel.getLastname(), "R");
+		sendkeys(hotel.getAddress(), "gfgasfdgafdhgahgvcxvxzvaghugajshgjhghc");
+		sendkeys(hotel.getCarnum(), "1234567891012123");
+		sendkeys(hotel.getCardtype(), "VISA");
+		sendkeys(hotel.getExpmonth(),"July");
+		sendkeys(hotel.getExpyear(), "2020");
+		sendkeys(hotel.getCvvno(), "123");
+		click(hotel.getBooknow());
 	
 
 	 }
-	//
-	//
-	// @Then("^orderid id generated$")
-	// public void orderid_id_generated() throws Exception {
-	// Thread.sleep(6000);
-	// WebElement finelementbyid6 = base.finelementbyid("order_no");
-	// String getenteredtext = base.getenteredtext(finelementbyid6);
-	// System.out.println(getenteredtext);
-	// base.takescreenshot("C:\\Users\\krishna\\Desktop\\New
-	// folder\\ihgh"+base.timeStamp()+".jpeg");
-	//
-	// BaseClass.closeallwindow();
-	//
-	// }
-	//
+	
+	
+	 @Then("^orderid id generated$")
+	 public void orderid_id_generated() throws Exception {
+	 Thread.sleep(6000);
+	 WebElement finelementbyid6 = finelementbyid("order_no");
+	 String getenteredtext = getenteredtext(finelementbyid6);
+	 System.out.println(getenteredtext);
+	takescreenshot("C:\\Users\\krish\\OneDrive\\Documents\\GitHub\\krishkp06\\projectmaven\\screenshots\\img"+timeStamp()+".png");
+	
+	 BaseClass.closeallwindow();
+	
+	 }
+	
 }
