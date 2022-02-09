@@ -12,6 +12,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import junit.framework.Assert;
 import projectmaven.BaseClass;
 
 public class StepDef extends BaseClass {
@@ -78,7 +79,8 @@ public class StepDef extends BaseClass {
 
 	}
 
-	 @When("^user makes payment$")
+	 @SuppressWarnings("deprecation")
+	@When("^user makes payment$")
 	 public void user_makes_payment() throws Exception {
 		 hotel = new BookHotel();
 		sendkeys(hotel.getFirstname(), "krishna");
@@ -90,18 +92,18 @@ public class StepDef extends BaseClass {
 		sendkeys(hotel.getExpyear(), "2020");
 		sendkeys(hotel.getCvvno(), "123");
 		click(hotel.getBooknow());
-	
+//	Assert.assertTrue("fails", false);
 
 	 }
 	
 	
 	 @Then("^orderid id generated$")
 	 public void orderid_id_generated() throws Exception {
-	 Thread.sleep(6000);
+Thread.sleep(6000);
 	 WebElement finelementbyid6 = finelementbyid("order_no");
 	 String getenteredtext = getenteredtext(finelementbyid6);
 	 System.out.println(getenteredtext);
-	takescreenshot("C:\\Users\\krish\\OneDrive\\Documents\\GitHub\\krishkp06\\projectmaven\\screenshots\\img"+timeStamp()+".png");
+	
 	
 	 BaseClass.closeallwindow();
 	
