@@ -1,6 +1,6 @@
 package com.testng;
 
-import org.checkerframework.checker.units.qual.g;
+
 import org.testng.annotations.Test;
 
 public class New {

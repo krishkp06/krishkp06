@@ -2,6 +2,7 @@ package org.stepdefinition;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.asserts.SoftAssert;
 
 import com.pom.BookHotel;
 import com.pom.Login;
@@ -25,9 +26,9 @@ public class StepDef extends BaseClass {
 	@Given("^user is on adactin home page$")
 	public void user_is_on_adactin_home_page() throws Exception {
 
-		webdriver();
-		max();
-		loadurl("https://adactinhotelapp.com/SearchHotel.php");
+		BaseClass.webdriver();
+		BaseClass.max();
+		BaseClass.loadurl("https://adactinhotelapp.com/SearchHotel.php");
 
 	}
 
@@ -72,10 +73,12 @@ public class StepDef extends BaseClass {
 		click(select.getSelectbtn());
 
 	}
-
+	SoftAssert softAssert = new SoftAssert();
 	@When("^click select hotel$")
 	public void click_select_hotel() throws Exception {
 		click(select.getCtn());
+		
+		softAssert.assertTrue(false);
 
 	}
 
@@ -106,7 +109,7 @@ Thread.sleep(6000);
 	
 	
 	 BaseClass.closeallwindow();
-	
+	 softAssert.assertAll();
 	 }
 	
 }

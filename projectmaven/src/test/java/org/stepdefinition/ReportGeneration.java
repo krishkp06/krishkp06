@@ -9,9 +9,9 @@ import net.masterthought.cucumber.ReportBuilder;
 
 public class ReportGeneration {
 	public static void jvmreports(String json) {
-		File file = new File("C:\\Users\\krish\\OneDrive\\Documents\\GitHub\\krishkp06\\projectmaven\\target");
+		File file = new File("C:\\Users\\krishna\\Documents\\krishkp06\\projectmaven\\target");
 		Configuration configuration= new Configuration(file, "Adactinpage");
-		configuration.addClassifications("sa,ple", "sammple");
+		configuration.addClassifications("sample", "sammple");
 		
 		java.util.List<String> li = new ArrayList<String>();
 		li.add(json);
